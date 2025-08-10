@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Comics by LLG • Home</title>
+  <title>Comics by LLG • Story 2</title>
   <style>
   :root{--bg:#fafafa;--ink:#111;--ink-soft:#555;--line:#e5e7eb;--accent:#000}
   *{box-sizing:border-box}
@@ -24,28 +24,32 @@
   .comic-stage p{margin:0;color:var(--ink-soft)}
   .divider{height:1px;background:var(--line);margin:1rem 0 0}
   footer{max-width:960px;margin:2rem auto;padding:0 2rem 2rem;color:var(--ink-soft);font-size:.9rem}
-</style>
+
+    .comic-stage img{max-width:100%;max-height:100%;border-radius:12px;object-fit:contain}
+  </style>
 </head>
 <body>
-  <header>Comics by LLG<small>LLG</small></header>
+  <header>Comics by LLG<small>Story 2</small></header>
   <nav>
-    <a href="index.html" class="active">HOME</a>
-    <a href="story1.html">STORY 1</a>
-    <a href="story2.html">STORY 2</a>
+    <a href="index.html">HOME</a>
+    <a href="story1.html" >STORY 1</a>
+    <a href="story2.html" class="active">STORY 2</a>
   </nav>
 
-  <main>
-    <section class="text-section">
-      <h2>LLG</h2>
-      <p>— Short blurb about your comics or the artist. Add a few lines here to set the tone.</p>
-      <div class="divider"></div>
-      <p>• Latest: <a href="story1.html">Story 1</a> — teaser line goes here.</p>
-      <p>• Also read: <a href="story2.html">Story 2</a> — teaser line goes here.</p>
-    </section>
-    <section class="image-section">
-      <div class="circle">🙂</div>
-    </section>
-  </main>
+  <div class="container">
+    <h1 class="story-head">Story 2</h1>
+    <div class="story-body">
+      <p><strong>Synopsis:</strong> Write a one-paragraph hook for story 2.</p>
+      <p>Body: Replace this with your story text. You can write multiple paragraphs — this template will wrap and flow nicely on mobile and desktop.</p>
+      <p>Tip: If you want to add line breaks between panels or scenes, just use separate paragraphs like this.</p>
+    </div>
+
+    <div class="comic-stage">
+      <img src="images/story2.jpg" alt="Story 2 comic image" />
+    </div>
+
+    <p class="story-body">Want more? Head back <a href="index.html">home</a> or read <a href="story1.html">Story 1</a>.</p>
+  </div>
 
   <footer>© 2025 LLG. All rights reserved.</footer>
 </body>
